@@ -105,13 +105,6 @@
         "describe": "基于 Yunzai 的 AIGC 插件，可免费使用 FLUX、SD、MJ 等绘图、LLM 推理、Vits语音合成等。"
     },
     {
-        "pathname": "icqq-monitoring-plugin",
-        "pluginname": "icqq检测-插件 (icqq-monitoring-plugin)",
-        "url": "https://gitee.com/xrk114514/icqq-monitoring-plugin",
-        "author": "@xrk114514",
-        "describe": "基于icqq的自动换签名插件，签名寄了自己换。"
-    },
-    {
         "pathname": "YePanel",
         "pluginname": "小叶面板 (YePanel)",
         "url": "https://github.com/XasYer/YePanel",
