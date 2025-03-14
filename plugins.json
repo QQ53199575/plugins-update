@@ -22,10 +22,17 @@
     },
     {
         "pathname": "xiaoyao-cvs-plugin",
-        "pluginname": "逍遥插件(xiaoyao-cvs-plugin)",
+        "pluginname": "逍遥插件(xiaoyao-cvs-pl ugin)",
         "url": "https://github.com/Ctrlcvs/xiaoyao-cvs-plugin",
         "author": "@Ctrlcvs",
         "describe": "用于辅助yunzai图库使用"
+    },
+    {
+        "pathname": "Bili-Plugin",
+        "pluginname": "B站插件(Bili-Plugin)",
+        "url": "https://github.com/miltrbefr/Bili-Plugin",
+        "author": "@NenNen_CN",
+        "describe": "支持B站账号管理/签到/直播监听/QQBot等功能"
     },
     {
         "pathname": "mysMap",
@@ -103,6 +110,13 @@
         "url": "https://github.com/AIGC-Yunzai/siliconflow-plugin",
         "author": "@Misaka20002@syfantasy@eggacheb",
         "describe": "基于 Yunzai 的 AIGC 插件，可免费使用 FLUX、SD、MJ 等绘图、LLM 推理、Vits语音合成等。"
+    },
+    {
+        "pathname": "icqq-monitoring-plugin",
+        "pluginname": "icqq检测-插件 (icqq-monitoring-plugin)",
+        "url": "https://gitee.com/xrk114514/icqq-monitoring-plugin",
+        "author": "@xrk114514",
+        "describe": "基于icqq的自动换签名插件，签名寄了自己换。"
     },
     {
         "pathname": "YePanel",
