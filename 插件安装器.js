@@ -5,7 +5,7 @@ const { exec } = require("child_process");
 import fetch from "node-fetch";
 import fs from 'fs'
 
-let plugins_list_url = `https://github.yunzai.fun/https://raw.githubusercontent.com/HuTao53199575/plugins-update/refs/heads/main/plugins.json`
+let plugins_list_url = `https://github.yunzai.fun/https://raw.githubusercontent.com/QQ53199575/plugins-update/refs/heads/main/plugins.json`
 let pluginsList_temp
 
 /**
