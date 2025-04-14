@@ -85,7 +85,7 @@
     },
     {
         "pathname": "meme-plugin",
-        "pluginname": "清语表情插件(memen-plugin)",
+        "pluginname": "清语表情插件(meme-plugin)",
         "url": "https://github.com/ClarityJS/meme-plugin",
         "author": "@ClarityJS",
         "describe": "清语表情， 一个Yunzai-Bot V3插件,表情包合成"
