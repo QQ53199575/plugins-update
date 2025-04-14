@@ -1,3 +1,4 @@
+//二改：HuTao53199575
 import plugin from '../../lib/plugins/plugin.js';
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
@@ -7,23 +8,11 @@ import fs from 'fs'
 
 let plugins_list_url = `https://github.yunzai.fun/https://raw.githubusercontent.com/QQ53199575/plugins-update/refs/heads/main/plugins.json`
 let pluginsList_temp
-
-/**
- * 作者：千奈千祁(2632139786)
- * Gitee主页：Gitee.com/QianNQQ
- * Github主页：Github.com/QianNQQ
- * 
- * 该插件所有版本发布于 该仓库(https://gitee.com/qiannqq/yunzai-plugin-JS)
- * 本插件及该仓库的所有插件均遵循 GPL3.0 开源协议
- * 
- * 请勿使用本插件进行盈利等商业活动行为
- */
-
 export class example2 extends plugin {
     constructor () {
       super({
         name: '插件管理器',
-        dsc: '插件管理器@千奈千祁',
+        dsc: '插件管理器@HuTao',
         event: 'message',
         priority: -1,
         rule: [
