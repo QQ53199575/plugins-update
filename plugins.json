@@ -46,7 +46,7 @@
         "pluginname": "原神地图插件(mysMap)",
         "url": "https://github.com/zzwh12/mysMap",
         "author": "@zzwh12",
-        "describe": "基于 Yunzai-Bot v3 的 MCSManager 服务器管理插件，提供完整的远程控制和监控功能"
+        "describe": "全新提瓦特地图资源查询插件"
     },
     {
         "pathname": "mcsmanager-plugin",
