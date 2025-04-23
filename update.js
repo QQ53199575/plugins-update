@@ -4,7 +4,7 @@ import fs from "fs"
 const require = createRequire(import.meta.url)
 const { exec } = require("child_process")
 
-let plugins_list_url = "https://github.yunzai.fun/https://raw.githubusercontent.com/QQ53199575/plugins-update/refs/heads/main/plugins.json"
+let plugins_list_url = "https://ghproxy.521002.xyz/https://raw.githubusercontent.com/QQ53199575/plugins-update/refs/heads/main/plugins.json"
 let pluginsList_temp
 export class example2 extends plugin {
   constructor () {
@@ -15,10 +15,10 @@ export class example2 extends plugin {
       priority: -1,
       rule: [
         {
-          reg: "^#插件(列表|市场|大全)$",
+          reg: "^#插件(列表|市场|大全)$|^#安装插件",
           fnc: "pluginList"
         }, {
-          reg: "^#安装插件(.*)$",
+          reg: "^#安装(.*)$",
           fnc: "installPlugin"
         }, {
           reg: "^#代理安装插件(.*)$",
@@ -79,7 +79,7 @@ export class example2 extends plugin {
 作者:${item.author}
 简介:${item.describe}
 插件链接:${item.url}
-安装指令:#安装插件${item.pathname}`
+安装指令:#安装${item.pathname}`
       msgList.push({
         user_id: Bot.uin,
         message: msgList_,
@@ -102,7 +102,7 @@ export class example2 extends plugin {
     let directories = files.filter(dirent => dirent.isDirectory()).map(dirent => dirent.name)
     let local_plugins_list = []
     for (let item of directories) {
-      if (item !== "example" && item !== "genshin" && item !== "system" && item !== "other") {
+      if (item !== "example" && item !== "adapter" && item !== "system" && item !== "other") {
         local_plugins_list.push(item)
       }
     }
@@ -145,7 +145,7 @@ export class example2 extends plugin {
       await e.reply("要卸载的插件不存在！")
       return true
     }
-    if (plugin_pathname == "miao-plugin" || plugin_pathname == "genshin" || plugin_pathname == "system" || plugin_pathname == "example" || plugin_pathname == "other") {
+    if (plugin_pathname == "adapter" || plugin_pathname == "genshin" || plugin_pathname == "system" || plugin_pathname == "example" || plugin_pathname == "other") {
       await e.reply("系统组件不支持卸载")
       return true
     }
@@ -161,7 +161,7 @@ export class example2 extends plugin {
 
   async installPlugin (e) {
     if (!e.isMaster) return false
-    let commsg = e.msg.match(/^#安装插件(.*)$/)
+    let commsg = e.msg.match(/^#安装(.*)$/)
     let plugin_name = commsg[1]
     if (fs.existsSync(`./plugins/${plugin_name}`)) {
       await e.reply(`[${plugin_name}]该插件已经安装了`)
@@ -217,7 +217,7 @@ export class example2 extends plugin {
     }
     await e.reply(`[${plugin_onoff[0].pluginname}]已搜索到插件，正在安装中……`)
     let com
-    com = `git clone --depth=1 https://github.yunzai.fun/${plugin_onoff[0].url}.git ./plugins/${plugin_onoff[0].pathname}/`
+    com = `git clone --depth=1 https://ghproxy.521002.xyz/${plugin_onoff[0].url}.git ./plugins/${plugin_onoff[0].pathname}/`
     let com_result = await this.execSyncc(com, { encoding: "buffer" })
     if (com_result.error) {
       await e.reply(`安装时出现错误！\n${com_result.error.message}`)
@@ -238,7 +238,7 @@ export class example2 extends plugin {
     let plugins_list = await this.getplugins()
     let msgList = []
     for (let item of plugins_list) {
-      let msg = `插件名称:${item.pluginname}\n作者:${item.author}\n简介:${item.describe}\n插件链接:${item.url}\n安装指令:#安装插件${item.pathname}`
+      let msg = `插件名称:${item.pluginname}\n作者:${item.author}\n简介:${item.describe}\n插件链接:${item.url}\n安装指令:#安装${item.pathname}`
       msgList.push({
         user_id: e.self_id,
         message: msg
