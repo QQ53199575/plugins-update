@@ -39,7 +39,7 @@
         "pluginname": "B站插件(Bili-Plugin)",
         "url": "https://github.com/miltrbefr/Bili-Plugin",
         "author": "@NenNen_CN",
-        "describe": "支持B站账号管理/签到/直播监听/QQBot等功能"
+        "describe": "支持B站账号管理/签到/直播监听等功能"
     },
     {
         "pathname": "mysMap",
