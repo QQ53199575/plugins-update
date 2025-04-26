@@ -4,7 +4,7 @@
 ```bash
 curl -o "./plugins/example/update.js" "https://raw.githubusercontent.com/QQ53199575/plugins-update/refs/heads/main/update.js"
 ```
-### 使用代理
+### 国内源
 ```bash
-curl -o "./plugins/example/update.js" "https://github.yunzai.fun/https://raw.githubusercontent.com/QQ53199575/plugins-update/refs/heads/main/update.js"
+curl -o "./plugins/example/update.js" "https://raw.gitcode.com/HuTao777/plugins-update/raw/main/update.js"
 ```
