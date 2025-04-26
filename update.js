@@ -4,7 +4,7 @@ import fs from "fs"
 const require = createRequire(import.meta.url)
 const { exec } = require("child_process")
 
-let plugins_list_url = "https://ghproxy.521002.xyz/https://raw.githubusercontent.com/QQ53199575/plugins-update/refs/heads/main/plugins.json"
+let plugins_list_url = "https://raw.gitcode.com/HuTao777/plugins-update/raw/main/plugins.json"
 let pluginsList_temp
 export class example2 extends plugin {
   constructor () {
