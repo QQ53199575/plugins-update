@@ -11,7 +11,7 @@
         "pluginname": "ICQQ插件(ICQQ-Plugin)",
         "url": "https://github.com/TimeRainStarSky/Yunzai-ICQQ-Plugin",
         "author": "@TimeRainStarSky",
-        "describe": "Miao-Plugin是一个TRSS-Yunzai ICQQ Bot 适配器插件"
+        "describe": "TRSS-Yunzai ICQQ Bot 适配器插件"
     },
     {
         "pathname": "Guoba-Plugin",
@@ -53,7 +53,7 @@
         "pluginname": "Mcsmanager管理插件(mcsmanager-plugin)",
         "url": "https://github.com/A1Panda/mcsmanager-plugin",
         "author": "@A1_Panda",
-        "describe": "全新提瓦特地图资源查询"
+        "describe": "Minecraft 服务器管理插件，提供强大的 MCSManager 管理功能"
     },
     {
         "pathname": "Bxianx-plugin",
@@ -810,5 +810,19 @@
         "url": "https://gitee.com/kesally/hs-qiqi-cv-plugin",
         "author": "@kesally@七七",
         "describe": "枫叶插件是一个Yunzai-Bot的扩展插件，给bot提供一些有趣的功能。 "
+    },
+    {
+        "pathname": "Yunzai-QQBot-Plugin",
+        "pluginname": "QQBot适配器插件fork(Yunzai-QQBot-Plugin)",
+        "url": "https://gitee.com/xiaoye12123/Yunzai-QQBot-Plugin",
+        "author": "@小叶",
+        "describe": "TRSS-Yunzai QQBot 适配器 插件"
+    },
+    {
+        "pathname": "QQBot-Plugin",
+        "pluginname": "QQBot适配器插件(QQBot-Plugin)",
+        "url": "https://github.com/TimeRainStarSky/Yunzai-QQBot-Plugin",
+        "author": "@TimeRainStarSky",
+        "describe": "TRSS-Yunzai QQBot 适配器 插件"
     }
  ]
