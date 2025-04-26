@@ -107,8 +107,8 @@
     {
         "pathname": "GloryOfKings-Plugin",
         "pluginname": "王者荣耀插件(GloryOfKings-Plugin)",
-        "url": "https://gitee.com/Tloml-Starry/GloryOfKings-Plugin",
-        "author": "Tloml-Starry",
+        "url": "https://gitcode.com/HanaHimeUnica/GloryOfKings-Plugin",
+        "author": "HanaHimeUnica",
         "describe": "通过扫码登录获取王者营地Token来查询战绩和主页信息等，更多功能王者相关功能正在制作。"
     },
     {
