@@ -15,7 +15,7 @@ export class example2 extends plugin {
       priority: -1,
       rule: [
         {
-          reg: "^#插件(列表|市场|大全)$|^#安装插件",
+          reg: "^#安装插件",
           fnc: "pluginList"
         }, {
           reg: "^#安装(.*)$",
@@ -190,7 +190,7 @@ export class example2 extends plugin {
     com = `cd ./plugins/${plugin_onoff[0].pathname}&& pnpm i --registry=https://registry.npmmirror.com`
     com_result = await this.execSyncc(com, { encoding: "buffer" })
     if (com_result.error) {
-      await e.reply(`[${plugin_onoff[0].pluginname}]安装依赖时出现错误！\n${com_result.stdout}`)
+      await e.reply(`[${plugin_onoff[0].pluginname}]安装依赖时出现错误！`)
       console.log(com_result)
     }
     await e.reply(`[${plugin_onoff[0].pluginname}]插件安装成功！重启后生效`)
