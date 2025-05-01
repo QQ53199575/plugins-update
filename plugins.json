@@ -98,6 +98,13 @@
         "describe": "清语表情， 一个Yunzai-Bot V3插件,表情包合成"
     },
     {
+        "pathname": "loveMys-plugin",
+        "pluginname": "loveMys(loveMys-plugin)",
+        "url": "https://gitee.com/bbaban/loveMys",
+        "author": "@bbaban",
+        "describe": "Yunzai过码插件"
+    },
+    {
         "pathname": "steam-plugin",
         "pluginname": "steam插件 (steam-plugin)",
         "url": "https://gitee.com/xiaoye12123/steam-plugin",
