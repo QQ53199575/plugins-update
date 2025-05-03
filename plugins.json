@@ -29,7 +29,7 @@
     },
     {
         "pathname": "xiaoyao-cvs-plugin",
-        "pluginname": "逍遥插件(xiaoyao-cvs-pl ugin)",
+        "pluginname": "逍遥插件(xiaoyao-cvs-plugin)",
         "url": "https://github.com/Ctrlcvs/xiaoyao-cvs-plugin",
         "author": "@Ctrlcvs",
         "describe": "用于辅助yunzai图库使用"
