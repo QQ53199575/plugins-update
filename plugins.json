@@ -133,6 +133,13 @@
         "describe": "基于icqq的自动换签名插件，签名寄了自己换。"
     },
     {
+        "pathname": "pixiv-plugin",
+        "pluginname": "P站插件(pixiv-plugin)",
+        "url": "https://github.com/admilkjs/pixiv-plugin",
+        "author": "@admilk",
+        "describe": "Yunzai-Bot-Pixiv 插件"
+    },,
+    {
         "pathname": "YePanel",
         "pluginname": "小叶面板 (YePanel)",
         "url": "https://github.com/XasYer/YePanel",
