@@ -84,6 +84,13 @@
         "describe": "一个基于落雪DX查分器，支持查询玩家信息、好友码绑定、查询50首歌曲、查询50首歌曲的DX Rating"
     },
     {
+        "pathname": "Packet-plugin",
+        "pluginname": "NapCat发包插件(Packet-plugin)",
+        "url": "https://gitee.com/HDTianRu/Packet-plugin",
+        "author": "@HDTianRu",
+        "describe": "云崽使用napcat发包插件"
+    },
+    {
         "pathname": "howtocook",
         "pluginname": "吃什么呢(howtocook)",
         "url": "https://github.com/ikechan8370/howtocook",
