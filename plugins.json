@@ -35,13 +35,6 @@
         "describe": "用于辅助yunzai图库使用"
     },
     {
-        "pathname": "Bili-Plugin",
-        "pluginname": "B站插件(Bili-Plugin)",
-        "url": "https://github.com/miltrbefr/Bili-Plugin",
-        "author": "@NenNen_CN",
-        "describe": "支持B站账号管理/签到/直播监听等功能"
-    },
-    {
         "pathname": "mysMap",
         "pluginname": "原神地图插件(mysMap)",
         "url": "https://github.com/zzwh12/mysMap",
@@ -99,10 +92,10 @@
     },
     {
         "pathname": "meme-plugin",
-        "pluginname": "清语表情插件(meme-plugin)",
-        "url": "https://github.com/ClarityJS/meme-plugin",
-        "author": "@ClarityJS",
-        "describe": "清语表情， 一个Yunzai-Bot V3插件,表情包合成"
+        "pluginname": "柠糖表情插件(meme-plugin)",
+        "url": "https://github.com/CandriaJS/meme-plugin",
+        "author": "@CandriaJS",
+        "describe": "柠糖表情 是一个 Yunzai-Bot | Karin 的扩展插件，提供表情包合成等功能。"
     },
     {
         "pathname": "loveMys-plugin",
@@ -775,13 +768,6 @@
         "url": "https://gitee.com/xianxincoder/xianxin-plugin",
         "author": "@闲心",
         "describe": "是一个集米游社cos、米游社wiki攻略、B站up动态推送(支持长图模式)、神秘指令、群战小游戏、五子棋、21点等功能的插件 [喵崽版点我](https://gitee.com/masuzuillust/xianxin-plugin)"
-    },
-    {
-        "pathname": "trss-xianxin-plugin",
-        "pluginname": "闲心插件trss分支 <br/>(trss-xianxin-plugin)",
-        "url": "https://gitee.com/snowtafir/xianxin-plugin",
-        "author": "@闲心",
-        "describe": "主要适配`TRSS-Yunzai`并兼容`Mizo-yunzai、Yunzai-bot`的集米游社(原神/星穹铁道：cos、wiki、攻略)、微博博主/B站up主 动态推送(支持长图模式)、神秘指令、群战小游戏、五子棋、21点等功能的插件分支"
     },
     {
         "pathname": "achievements-plugin",
