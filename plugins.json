@@ -175,13 +175,6 @@
         "describe": "Yunzai开发管理面板，可在线生成简易插件、编辑图片、仿真QQ沙盒测试、数据库管理、文件管理、代码编辑、配置编辑、onebot连接、终端ssh连接等，详情见文档"
     },
     {
-        "pathname": "Lain-plugin",
-        "pluginname": "铃音插件(Lain-plugin)",
-        "url": "https://gitee.com/sky-summer/Lain-plugin",
-        "author": "@天空_夏日",
-        "describe": "此插件已被修改为适配本仓库云崽，原仓库已删库跑路，我也只维护QQbot"
-    },
-    {
         "pathname": "Farming-Simulator",
         "pluginname": "种田模拟器(Farming-Simulator)",
         "url": "https://gitee.com/Tloml-Starry/Farming-Simulator",
@@ -831,5 +824,243 @@
         "url": "https://github.com/TimeRainStarSky/Yunzai-QQBot-Plugin",
         "author": "@TimeRainStarSky",
         "describe": "TRSS-Yunzai QQBot 适配器 插件"
+    },
+    {
+        "pathname": "yunzai-guard",
+        "pluginname": "Yunzai Guard (yunzai-guard)",
+        "url": "https://github.com/Admilkk/yunzai-guard",
+        "author": "@Admilk",
+        "describe": "插件行为审计与权限管控，支持 TRSS-Yunzai 与玖璃，记录插件网络、文件、进程、端口与原生扩展行为。"
+    },
+    {
+        "pathname": "chatai-plugin",
+        "pluginname": "ChatAI (chatai-plugin)",
+        "url": "https://github.com/XxxXTeam/chatai-plugin",
+        "author": "@XxxXTeam",
+        "describe": "基于 chatgpt-plugin 重构的 Yunzai AI 聊天插件，支持多模型、工具与 MCP 协议。"
+    },
+    {
+        "pathname": "yunzai-plugin-quote-card",
+        "pluginname": "名言卡片 (quote-card)",
+        "url": "https://github.com/Looking08/yunzai-plugin-quote-card",
+        "author": "@Looking08",
+        "describe": "引用一条消息回复 #名言 即可生成玻璃质感名言卡片。"
+    },
+    {
+        "pathname": "DingTalk-Plugin",
+        "pluginname": "DingTalk-Plugin (钉钉适配器插件)",
+        "url": "https://github.com/lylncode/DingTalk-Plugin",
+        "author": "@dmmdekkd @LiuYunLingNai",
+        "describe": "基于钉钉开放平台 Stream 模式的 TRSS-Yunzai 钉钉适配器插件。"
+    },
+    {
+        "pathname": "douyin-auto-spark",
+        "pluginname": "抖音续火（douyin-auto-spark）",
+        "url": "https://github.com/LiuYunLingNai/douyin-auto-spark",
+        "author": "@LiuYunLingNai",
+        "describe": "利用 Playwright 打开抖音进行续火，支持自定义续火内容和多用户使用。"
+    },
+    {
+        "pathname": "X-plugin",
+        "pluginname": "X-plugin",
+        "url": "https://github.com/Muoan/X-plugin",
+        "author": "@墨安",
+        "describe": "X（推特）解析、下载、查询与搜索插件，支持 web 面板。"
+    },
+    {
+        "pathname": "yunzai-gscore-adapter",
+        "pluginname": "Gscore-Adapter",
+        "url": "https://github.com/xiowo/yunzai-gscore-adapter",
+        "author": "@MortalCat",
+        "describe": "一个适用于 Yunzai 的早柚适配器。"
+    },
+    {
+        "pathname": "gi-nanoka-plugin",
+        "pluginname": "gi-nanoka-plugin",
+        "url": "https://gitee.com/wisped/gi-nanoka-plugin",
+        "author": "@wisped",
+        "describe": "一只给 gi.nanoka.cc 拍照的夏洛蒂。"
+    },
+    {
+        "pathname": "Secluded-Adapter",
+        "pluginname": "Secluded-Adapter",
+        "url": "https://github.com/Lovely02Y/Secluded-Adapter",
+        "author": "@Lovely02Y @Senior Horikawa",
+        "describe": "一个普通的协议适配器。"
+    },
+    {
+        "pathname": "kh-plugin",
+        "pluginname": "kh-plugin",
+        "url": "https://github.com/yhArcadia/kh-plugin",
+        "author": "@渔火Arcadia",
+        "describe": "群成员头像、昵称记录留档工具，可记录群友修改昵称、群名片、头衔、权限与头像的历史。"
+    },
+    {
+        "pathname": "AQing-plugin",
+        "pluginname": "AQing-plugin",
+        "url": "https://github.com/mldqzs/AQing-plugin",
+        "author": "@明るい青紫色",
+        "describe": "基于 TRSS-Yunzai 的综合娱乐小插件，集群管、复读禁言、状态图、小游戏与多种查询功能于一体。"
+    },
+    {
+        "pathname": "Huitian-daily",
+        "pluginname": "Huitian-daily",
+        "url": "https://github.com/OriginSXC/Huitian-daily",
+        "author": "@OriginSXC",
+        "describe": "回天日报聚合插件，把多源日报拼成派蒙主题图卡。"
+    },
+    {
+        "pathname": "Huitian-mini",
+        "pluginname": "Huitian-mini",
+        "url": "https://github.com/OriginSXC/Huitian-mini",
+        "author": "@OriginSXC",
+        "describe": "轻量级 Yunzai 插件合集，提供早报、摸鱼日历、米游社 COS、随机图与视频等功能。"
+    },
+    {
+        "pathname": "rollpig-plugin",
+        "pluginname": "今日小猪(rollpig-plugin)",
+        "url": "https://github.com/ZuBeri05/rollpig-plugin",
+        "author": "@ZuBeri05",
+        "describe": "每日抽取专属小猪性格、随机获取猪猪图片及搜索特定猪猪。"
+    },
+    {
+        "pathname": "btpanel-plugin",
+        "pluginname": "宝塔插件(BTPanel-Plugin)",
+        "url": "https://github.com/yll14/btpanel-plugin",
+        "author": "@yll14",
+        "describe": "宝塔面板运维插件，支持系统状态、网站、数据库、计划任务等管理。"
+    },
+    {
+        "pathname": "MATOOL-Plugin",
+        "pluginname": "MATOOL-Plugin",
+        "url": "https://github.com/Muoan/MATOOL-Plugin",
+        "author": "@墨安",
+        "describe": "墨安游戏助手适配插件，提供原神、星铁、绝区零相关功能。"
+    },
+    {
+        "pathname": "guess-plugin",
+        "pluginname": "guess-plugin",
+        "url": "https://github.com/Small-JiaJia/guess-plugin",
+        "author": "@小佳佳",
+        "describe": "猜角色类插件，支持头像、全身立绘、命座、天赋等多种猜图模式。"
+    },
+    {
+        "pathname": "yunzai-bgg-plugin",
+        "pluginname": "桌游查询插件(yunzai-bgg-plugin)",
+        "url": "https://github.com/fsqhn/yunzai-bgg-plugin",
+        "author": "@fsqhn",
+        "describe": "桌游信息查询插件，支持中文名智能搜索、AI翻译与多搜索引擎聚合。"
+    },
+    {
+        "pathname": "hapi_connector-plugin",
+        "pluginname": "Hapi-connector-plugin",
+        "url": "https://github.com/AIGC-Yunzai/hapi_connector-plugin",
+        "author": "@misaka20002 @127Wzc",
+        "describe": "连接 HAPI 后端，通过聊天窗口远程查看、切换、创建和管理 AI 会话。"
+    },
+    {
+        "pathname": "Napcat_GL",
+        "pluginname": "Napcat_GL-plugin",
+        "url": "https://github.com/zhisiluo/Napcat_GL",
+        "author": "@zhisiluo",
+        "describe": "通过 SSH 连接多台远程服务器，统一管理多个 NapCat 实例。"
+    },
+    {
+        "pathname": "yunzai_qq_group_daily_analysis",
+        "pluginname": "group-daily-analysis",
+        "url": "https://github.com/NotIvny/yunzai_qq_group_daily_analysis",
+        "author": "@NotIvny",
+        "describe": "基于 LLM 分析群聊消息，生成话题、用户称号、金句和聊天质量评估日报图。"
+    },
+    {
+        "pathname": "qqmusic-plugin",
+        "pluginname": "qq音乐插件(qqmusic-plugin)",
+        "url": "https://github.com/zaras123/qqmusic-plugin",
+        "author": "@ZaraS",
+        "describe": "Yunzai 的 QQ 音乐插件，支持解析、点播、排行榜等功能。"
+    },
+    {
+        "pathname": "Mozu-Plugin",
+        "pluginname": "魔族陌插件（Mozu-Plugin）",
+        "url": "https://github.com/MozuGit/Mozu-Plugin",
+        "author": "@MozuGit",
+        "describe": "适用于 TRSS-Yunzai 的插件，主要功能有修仙、伪造聊天、发言统计等。"
+    },
+    {
+        "pathname": "Git-Plugin",
+        "pluginname": "Git-Plugin",
+        "url": "https://github.com/QingYingX-Bot/Git-Plugin",
+        "author": "@QingYingX",
+        "describe": "Yunzai 的 Git 仓库助手，支持 GitHub、Gitee、GitCode、Gitea。"
+    },
+    {
+        "pathname": "NCM-plugin",
+        "pluginname": "双管乐 · api插件(NCM-plugin)",
+        "url": "https://github.com/sarsxe/NCM-plugin",
+        "author": "@sarsxe",
+        "describe": "简易方便的本地 API，安装后重启即可使用。"
+    },
+    {
+        "pathname": "cs-opener-plugin",
+        "pluginname": "CS开箱模拟插件(cs-opener-plugin)",
+        "url": "https://github.com/Cat-bl/cs-opener-plugin",
+        "author": "@Cat-bl",
+        "describe": "适用于 Yunzai bot 的 CS 开箱模拟插件，本地代码渲染并以视频格式发送结果。"
+    },
+    {
+        "pathname": "bl-chat-plugin",
+        "pluginname": "群聊ai对话插件(bl-chat-plugin)",
+        "url": "https://github.com/Cat-bl/bl-chat-plugin",
+        "author": "@Cat-bl",
+        "describe": "适用于 TRSS-Yunzai 与 OneBot v11 的 AI 对话插件，支持本地工具调用和 MCP 配置。"
+    },
+    {
+        "pathname": "soupbubble-plugin",
+        "pluginname": "海龟汤插件(soupbubble-plugin)",
+        "url": "https://github.com/Cat-bl/soupbubble-plugin",
+        "author": "@Cat-bl",
+        "describe": "基于 TRSS-Yunzai 的海龟汤游戏插件，AI 生成谜题并担任裁判。"
+    },
+    {
+        "pathname": "Lofter-Plugin",
+        "pluginname": "Lofter-Plugin",
+        "url": "https://github.com/WindDrift/Lofter-Plugin",
+        "author": "@WindDrift",
+        "describe": "适用于 Yunzai-Bot v3 和 TRSS-Yunzai 的 Lofter 博文解析插件。"
+    },
+    {
+        "pathname": "classtable",
+        "pluginname": "Classtable（课表插件）",
+        "url": "https://github.com/Pimeng/classtable",
+        "author": "@Pimeng",
+        "describe": "Miao-Yunzai 机器人课程表插件。"
+    },
+    {
+        "pathname": "Yunzai-Schedule-Plugin",
+        "pluginname": "课程表插件（Yunzai-Schedule-Plugin）",
+        "url": "https://github.com/Temmie0125/Yunzai-Schedule-Plugin",
+        "author": "@Temmie",
+        "describe": "课程表管理与查询插件，支持导入、群友课表查询、次日推送及图片渲染。"
+    },
+    {
+        "pathname": "TRSS-WeChat-OC-Plugin",
+        "pluginname": "微信个人号适配器（TRSS-WeChat-OC-Plugin）",
+        "url": "https://github.com/AIGC-Yunzai/TRSS-WeChat-OC-Plugin",
+        "author": "@ethan42nd @misaka20002",
+        "describe": "TRSS-Yunzai 的微信个人号适配器插件，接入微信 ClawBot 接口。"
+    },
+    {
+        "pathname": "bookdex-plugin",
+        "pluginname": "书籍角色文本图鉴（bookdex-plugin）",
+        "url": "https://github.com/KexinyingLife/bookdex-plugin",
+        "author": "@KexinyingLife",
+        "describe": "原神书籍、角色故事、圣遗物和武器故事的文本检索与阅读插件。"
+    },
+    {
+        "pathname": "yunzai-blacklist-plugin",
+        "pluginname": "黑名单插件（yunzai-blacklist-plugin）",
+        "url": "https://github.com/Sakura1618/yunzai-blacklist-plugin",
+        "author": "@Sakura1618",
+        "describe": "黑名单与授权管理插件，支持入群自动踢黑、黑名单查询及主人授权。"
     }
  ]
